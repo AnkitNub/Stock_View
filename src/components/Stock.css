@@ -1,0 +1,57 @@
+.graph {
+  display: flex;
+  left: 20px;
+  top: 15px;
+  width: 720px;
+  height: 440px;
+}
+
+.company {
+  margin-left: 40px;
+}
+
+.graph {
+  width: 80vw;
+}
+
+.left-aligned {
+  margin-left: 20px;
+}
+
+/* button {
+  margin-left: 20px;
+  border-radius: 7px;
+}
+
+button:hover {
+  color: rgb(140, 222, 58);
+  cursor: pointer;
+} */
+
+.filters {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  margin: 10px 0 0 70px;
+  font-family: sans-serif;
+}
+
+.filters h5:hover,
+.filters h5.active {
+  color: #01c231;
+  cursor: pointer;
+}
+
+/* adding pseudo element after */
+/* #navbar li a.active::after - add something after content */
+.filter h5.active::after
+/* .filter h5:hover::after - now apply properties of "after" class whenever you hover ".filter h5" */
+,#navbar h5:hover::after {
+  content: "";
+  width: 100%;
+  height: 3.39px;
+  position: absolute;
+  /* left: 20px; */
+  bottom: -2px;
+  background: #01c231;
+}
