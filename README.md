@@ -15,5 +15,9 @@ Stock view is a SPA integrated with Alpha Vantage API and News API that provides
 3. Run `npm install` <br/>
 4. Run `npm start` to start the script. <br/>
 
+### Chart 
+![image](https://user-images.githubusercontent.com/70649154/218376295-60527743-7c24-4b9e-abdb-ddf1009cab07.png)
+### Watchlist
+![image](https://user-images.githubusercontent.com/70649154/218639802-28894d32-1458-45fb-bbc3-0ff209e16bf2.png)
 
 
